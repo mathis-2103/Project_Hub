@@ -1,0 +1,15 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+.slick-prev:before, .slick-next:before {
+    color: black; /* Change arrow color */
+}
+
+.slick-dots li button:before {
+    font-size: 12px; /* Change dot size */
+    color: gray; /* Change dot color */
+}
+
+.slick-dots li.slick-active button:before {
+    color: black; /* Change active dot color */
+}

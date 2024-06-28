@@ -1,0 +1,18 @@
+/* slick-carousel CSS */
+.slick-prev, .slick-next {
+    width: 40px;
+    height: 40px;
+    z-index: 1;
+}
+
+.slick-prev::before, .slick-next::before {
+    font-size: 40px;
+    color: black;
+}
+
+.slick-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}

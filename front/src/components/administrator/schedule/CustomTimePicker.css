@@ -1,0 +1,31 @@
+.custom-time-picker {
+    position: relative;
+}
+
+.custom-dropdown {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 8px;
+    font-size: 16px;
+    width: 100%;
+    cursor: pointer;
+    outline: none;
+}
+
+
+.custom-dropdown::-ms-expand {
+    display: none;
+}
+
+
+.custom-dropdown option {
+    padding: 8px;
+}
+
+.custom-dropdown:focus {
+    border-color: #3498db;
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.7);
+}
